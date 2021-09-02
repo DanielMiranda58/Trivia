@@ -1,0 +1,30 @@
+.container_load{
+    background-color: #f3f3f3cc;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0;
+    z-index: 9999;
+    transition: all 1.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.loader {
+    width: 30px;
+    height: 30px;
+    margin-top:0;
+    border: 30px solid #ffffff;
+    border-left: 30px solid  #330867 ;
+    position: absolute;
+    border-right: 30px solid  #30cfd0 ;
+    border-radius: 50%;
+    animation: spinIT 0.9s linear infinite;
+    filter: drop-shadow(0px 0px 8px rgba(136, 53, 53, 0.596))
+  }
+  @keyframes spinIT {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
