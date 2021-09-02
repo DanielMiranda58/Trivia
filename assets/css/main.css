@@ -1,0 +1,62 @@
+
+body{
+    background-image: url("/assets/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+
+
+.title{
+   margin-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--fontSecundario);
+    /* color: var(--fontPrincipal); */
+}
+
+.color{
+    
+    background-image: linear-gradient(to top,#330867  0%, #30cfd0  100%);
+    background-size: 100%;
+    background-clip: text;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+}
+.div-main{
+    
+    margin-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: space-around;
+}
+   
+.div-sec{
+    padding: 3rem;
+    background-color: var(--principal);
+    border-radius: 2rem;
+    box-shadow: 3px 3px 3px var(--box1), -3px -3px 3px var(--box2);
+
+}
+.div-sec li{
+    
+    padding: 1rem;
+    margin-bottom: 10px;
+    background-color: var(--principal);
+    border-radius: 2rem;
+    box-shadow: 3px 3px 3px var(--box1), -3px -3px 3px var(--box2);
+
+    text-align: center;
+}
+.div-sec a{
+    font-family: var(--fontSecundario);
+    color: var(--fontPrincipal);
+    text-align: center;
+    text-transform: uppercase;
+}

@@ -1,0 +1,127 @@
+body{
+	background-image: url("/assets/img/fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover ;
+
+
+}
+.main_secction{
+    /* border: solid 1px #ffffff; */
+    width: 40%;
+	/* height: 50vh; */
+	margin: auto;
+	background-color: var(--principal);
+    border-radius: 2rem;
+    box-shadow: 3px 3px 3px var(--box1), -3px -3px 3px var(--box2);
+
+
+}
+form{
+	color: var(--fontPrincipal);
+	width:100%;
+    padding:2.5rem;
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius:10px;
+	margin:2rem auto;
+	background-color: var(--principal);
+    border-radius: 2rem;
+    box-shadow: 3px 3px 3px var(--box1), -3px -3px 3px var(--box2);
+}
+form label{
+   text-transform: uppercase;
+    font-family: var(--fontSecundario);
+	font-weight:bold;
+	padding: 4px;
+	display:inline-block;
+}
+
+form input[type="text"]{
+	width:80px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	margin:8px 0;
+	font-family: var(--fontSecundario);
+	display:inline-block;
+}
+form input[type="select"],option{
+	padding: 4px;
+	font-family: var(--fontSecundario);
+}
+form input[type="submit"]{
+	width:50%;
+	padding:8px 16px;
+	margin-top:32px;
+	font-family: var(--fontSecundario);
+	display:block;
+	color:#fff;
+	background-color: var(--principal);
+    border-radius: 2rem;
+	box-shadow: 3px 3px 3px var(--box1), -3px -3px 3px var(--box2);
+}
+.section-answers{
+	color: var(--fontPrincipal);
+	width:30%;
+	padding: 2rem;
+	margin:2rem auto;
+	background-color: var(--principal);
+    border-radius: 2rem;
+	box-shadow: 3px 3px 3px var(--box1), -3px -3px 3px var(--box2);
+
+}
+.section-answers ul{
+	list-style: none;
+}
+.section-answers h4, button{
+
+	padding: 5px;
+	margin-top: 5px;
+	color: var(--fontPrincipal);
+	text-transform: uppercase;
+    font-family: var(--fontSecundario);
+	font-weight:bold;
+	background-color: var(--principal);
+	border-radius: 2rem;
+
+}
+ .section-answers button{
+	width: 50%;
+	margin-left: 5rem;
+
+}
+
+.inactive{
+	display: none;
+}
+.section-gameover {
+	background-image: url("/assets/img/gameover.jpg");
+	overflow: hidden;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+
+
+}
+.section-gameover h2{
+	padding: 5px;
+	margin-top: 5px;
+	color: var(--fontPrincipal);
+	text-transform: uppercase;
+    font-family: var(--fontSecundario);
+	font-weight:bold;
+	text-align: center;
+}
+.section-gameover a{
+	font-family: var(--fontSecundario);
+    color: var(--fontPrincipal);
+    text-transform: uppercase;
+	padding: 1rem;
+	margin-left: 500px;
+	background-color: var(--principal);
+    border-radius: 2rem;
+	box-shadow: 3px 3px 3px var(--box1), -3px -3px 3px var(--box2);
+
+}
